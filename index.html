@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Mister Balls</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body onkeyup="onHandleKey(event)" onload="onInitGame()">
+
+	<h1>Collect those Yarn Balls</h1>
+	<h4><span class="counter counter-collected">0</span> YARN BALLS COLLECTED</h4>
+	<h4><span class="counter counter-neighbors">0</span> YARN BALLS AROUND YOU</h4>
+	
+	<table>
+		<tbody class="board"></tbody>
+	</table>
+	<div class="modal hide"><span>You Win!</span><span><button class="restart"
+				onclick="onRestartClicked()">Restart</button></span></div>
+	<script src="js/util.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>

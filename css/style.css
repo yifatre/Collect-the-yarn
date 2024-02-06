@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+table {
+    position: relative;
+    margin: auto;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: gray;
+}
+
+.wall {
+    background-color: rgb(109, 44, 104);
+}
+
+.hide {
+    display: none;
+}
+
+.modal {
+    background-color: rebeccapurple;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blanchedalmond;
+    position: relative;
+    top: -300px;
+    margin: auto;
+    padding: 5px;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.restart {
+    border-radius: 5px;
+    border-width: 0px;
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.restart:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.modal span {
+    display: block;
+    padding: auto;
+}
